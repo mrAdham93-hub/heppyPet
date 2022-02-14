@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/media.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>HAPPY PET</title>
+    <base href="/index.html" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header flex">
+        <div class="logo flex">
+          <div class="powLogo">
+            <img src="./images/pngwing.com.png" alt="paw-xxl" />
+          </div>
+          <h1 id="logoText">HAPPY PET</h1>
+        </div>
+        <div class="mobileNav flex">
+          <div class="navButton flex">
+            <a href="#" style="color: #000" onclick="showMobilemenu()">
+              <i class="fas fa-bars"></i>
+            </a>
+          </div>
+        </div>
+        <div class="headNavMobile flex" id="headNavMobile">
+          <ul id="headNav">
+            <li>Главная</li>
+            <li>Друзья</li>
+            <li>О серевесе</li>
+            <li>Контакты</li>
+          </ul>
+        </div>
+        <div class="headNav flex">
+          <ul class="flex">
+            <li>Главная</li>
+            <li>Друзья</li>
+            <li>О серевесе</li>
+            <li>Контакты</li>
+          </ul>
+        </div>
+        <div class="phoneNumber flex">
+          <div class="phoneIcon">
+            <img src="./images/phone.png" />
+          </div>
+          <span>+7 965 223-23-16</span>
+        </div>
+        <div class="shopping flex">
+          <div class="shoppingBasket flex">
+            <i class="fas fa-shopping-basket"></i>
+          </div>
+          <span class="price">9754 p.</span>
+          <div class="sortDown">
+            <i class="fas fa-sort-down"></i>
+          </div>
+        </div>
+        <div class="search">
+          <input
+            type="search"
+            placeholder="What pets do you like?"
+            class="fas inputText"
+          />
+        </div>
+        <div class="mobileBasket">
+          <div class="shoppingBasket flex">
+            <i class="fas fa-shopping-basket"></i>
+          </div>
+        </div>
+      </header>
+      <main class="main flex">
+        <div class="titles">
+          <div class="mainTitle active">
+            <p>Твой новый друг с доставкой на дом</p>
+          </div>
+          <div class="mobileMainAnimal flex">
+            <div class="circle"></div>
+            <div class="circle2"></div>
+            <div class="animal">
+              <img src="https://pngimg.com/uploads/dog/dog_PNG50361.png" />
+            </div>
+          </div>
+          <div class="mainSubtitle">
+            <p>
+              Онлайн - магазин домашних животных - удобное решение, когда лень
+              выходить из дома
+            </p>
+          </div>
+          <button class="btn flex">Посмотреть друзей</button>
+        </div>
+        <div class="mainAnimalPhoto">
+          <div class="circle"></div>
+          <div class="circle2"></div>
+
+          <div class="animal">
+            <img src="https://pngimg.com/uploads/dog/dog_PNG50361.png" />
+          </div>
+        </div>
+      </main>
+      <h3 style="text-align: center">TOP HEPPY PETS</h3>
+      <div class="cards flex">
+        <div class="cardsItem">
+          <p>Кошки <i class="fas fa-arrow-right"></i></p>
+          <img src="./images/cat.png" alt="" srcset="" />
+        </div>
+        <div class="cardsItem">
+          <p>Cобаки <i class="fas fa-arrow-right"></i></p>
+          <img src="./images/dog.png" alt="" srcset="" />
+        </div>
+        <div class="cardsItem">
+          <p>Хаски <i class="fas fa-arrow-right"></i></p>
+          <img src="./images/khaski.png" alt="" srcset="" />
+        </div>
+        <div class="cardsItem">
+          <p>Кролик <i class="fas fa-arrow-right"></i></p>
+          <img src="./images/krolik.png" alt="" srcset="" />
+        </div>
+        <div class="cardsItem">
+          <p>Курицы <i class="fas fa-arrow-right"></i></p>
+          <img src="./images/kuritsa1.png" alt="" srcset="" />
+        </div>
+        <div class="cardsItem">
+          <p>Попугай <i class="fas fa-arrow-right"></i></p>
+          <img src="./images/popugay.png" alt="" srcset="" />
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container flex">
+        <div class="aboutUsFooter">
+          <h3 class="footerTitle">ABOUT US</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur
+            illo quibusdam facere ex rem. Rem voluptas molestiae eos nam
+            quaerat, placeat consequuntur veritatis impedit omnis sed ut.
+            Impedit, placeat consequatur!
+          </p>
+          <div class="social flex">
+            <div class="shoppingBasket flex">
+              <i class="fab fa-facebook"></i>
+            </div>
+            <div class="shoppingBasket flex">
+              <i class="fab fa-twitter"></i>
+            </div>
+            <div class="shoppingBasket flex">
+              <i class="fab fa-instagram"></i>
+            </div>
+            <div class="shoppingBasket flex">
+              <i class="fab fa-telegram-plane"></i>
+            </div>
+            <div class="shoppingBasket flex">
+              <i class="fab fa-whatsapp"></i>
+            </div>
+          </div>
+        </div>
+        <div class="addressFooter">
+          <h3 class="footerTitle">ADDRESS</h3>
+          <div class="location">
+            <i class="fas fa-map-marker-alt"></i>
+            Tajikistan,Dushanbe, Ayni 42
+          </div>
+          <div class="phoneNumberFooter">
+            <i class="fas fa-phone-alt"></i>
+            <span>+7 965 223-23-16</span>
+          </div>
+
+          <div class="message">
+            <i class="fas fa-envelope"></i>
+            happypet@gmail.com
+          </div>
+        </div>
+        <div class="contactUsFooeter">
+          <h3 class="footerTitle">CONTACT US</h3>
+          <input
+            type="text"
+            class="fas inputText"
+            placeholder="Inter your email..."
+          />
+          <textarea
+            class="fas inputTextarea"
+            name="textarea"
+            cols="10"
+            rows="5"
+            placeholder="Inter your message here..."
+          ></textarea>
+          <button onclick="addStyleTo()" class="btn">Send</button>
+        </div>
+      </div>
+    </footer>
+    <script src="./JS/app.js"></script>
+    <script src="./JS/script.js"></script>
+  </body>
+</html>
